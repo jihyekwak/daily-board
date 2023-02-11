@@ -1,6 +1,6 @@
 const quotes = [
     {
-        quote: "Keep your eyes on the starts and your feet on the ground.",
+        quote: "Keep your eyes on the stars and your feet on the ground.",
         author: "Theodore Roosevelt"
     },
     {
