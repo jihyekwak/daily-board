@@ -8,34 +8,40 @@
     <title>Daily Board</title>
 </head>
 <body>
-    <div id="login">
-        <form id="login-form">
-            <input required maxlength="15" type="text" placeholder="What's your name?" />
-            <input type="submit" value="Log In" />
-        </form>
-        <div id="greeting">
-            <h1></h1>
-        </div>
-    </div>
-    <div id="clock">
-        <span>00:00</span>
-    </div>
     <div id="weather">
         <span></span>
         <span></span>
         <span></span>
     </div>
+    <div id="clock">
+        <span>00:00</span>
+    </div>
+    <div id="greeting">
+        <h1>Good</h1>
+    </div>
     <div id="quotes">
         <span></span>
         <span></span>
     </div>
-    <div id="todo">
-        <form id="todo-form">
-            <input type="text" name="" id="" placeholder="Write to do">
-            <input type="submit" value="+">
+    <div id="login">
+        <form id="login-form">
+            <input required maxlength="15" type="text" placeholder="What's your name?" />
+            <input type="submit" value="Log In" />
         </form>
-        <ul id="todo-list"></ul>
     </div>
+    <!-- <div id="todo"> -->
+        <div>
+            <form id="todo-form">
+                <p>What is your to do list today?</p>
+                <input type="text" name="" id="" placeholder="" >
+                <input type="submit" value="+">
+            </form>
+        </div>
+        <div id="todo-list">
+            <ul id="todo-list"></ul>
+        </div>
+        
+    <!-- </div> -->
     <script src="js/clock.js"></script>
     <script src="js/weather.js"></script>
     <script src="js/quotes.js"></script>
