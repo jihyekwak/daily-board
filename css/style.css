@@ -1,3 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
 .hidden {
     display: none;
+}
+
+html {
+    /* width: 100%; */
+    height: 100%;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    border: 3px solid blue;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: 3px solid yellow;
+    font-family: 'Merriweather', serif;
+
+}
+
+div {
+    border: 1px solid red;
+    margin: 10px;
+}
+
+#clock {
+    font-size: 4rem;
+}
+
+#greeting {
+    font-size: 0.8rem;
+}
+
+#quotes {
+    font-size: 1rem;
+}
+
+input {
+    font-size: 1rem;
+    border: none;
+    background: none;
+    color: white;
+    font-family: 'Merriweather', serif;
+    font-size: 0.8rem;
+    padding: 5px;
+}
+
+#todo-form input[type="text"] {
+    border-bottom: 1px solid white;
+}
+
+div#todo-list {
+    font-size: 1rem;
+    border-radius: 10px;
+    /* border: 2px solid rgb(128, 128, 128, 0.7); */
+    background-color: rgb(128, 128, 128, 0.7);
+    list-style: none;
+    /* text-align: left; */
+    align-self: flex-end;
+}
+
+ul#todo-list {
+    list-style: none;
+    padding: 10px;
+
 }
