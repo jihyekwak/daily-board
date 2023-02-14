@@ -8,28 +8,31 @@
     <title>Daily Board</title>
 </head>
 <body>
-    <div id="weather">
-        <span></span>
-        <span></span>
-        <span></span>
-    </div>
-    <div id="clock">
-        <span>00:00</span>
-    </div>
-    <div id="greeting">
-        <h1>Good</h1>
-    </div>
-    <div id="quotes">
-        <span></span>
-        <span></span>
-    </div>
-    <div id="login">
-        <form id="login-form">
-            <input required maxlength="15" type="text" placeholder="What's your name?" />
-            <input type="submit" value="Log In" />
-        </form>
-    </div>
-    <!-- <div id="todo"> -->
+    <section class="right">
+        <div id="weather">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </section>
+
+    <section class="center">
+        <div id="clock">
+            <span>00:00</span>
+        </div>
+        <div id="greeting">
+            <h1>Good</h1>
+        </div>
+        <div id="quotes">
+            <span></span>
+            <span></span>
+        </div>
+        <div id="login">
+            <form id="login-form">
+                <input required maxlength="15" type="text" placeholder="What's your name?" />
+                <input type="submit" value="Log In" />
+            </form>
+        </div>
         <div>
             <form id="todo-form">
                 <label>What is your to do list today?</label>
@@ -37,11 +40,14 @@
                 <input type="submit" value="+">
             </form>
         </div>
-        <div id="todo-list"">
+    </section>
+
+    <section class="right">
+        <div id="todo-list">
             <ul id="todo-list"></ul>
         </div>
-        
-    <!-- </div> -->
+    </section>
+
     <script src="js/clock.js"></script>
     <script src="js/weather.js"></script>
     <script src="js/quotes.js"></script>
