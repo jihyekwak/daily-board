@@ -16,6 +16,16 @@ body {
     justify-content: space-between;
     color: white;
     font-family: 'Merriweather', serif;
+    position: relative;
+    margin: 0px;
+}
+
+#backgroundImg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.9;
 }
 
 .right {
@@ -29,30 +39,51 @@ body {
     justify-content: center;
 }
 
-section:nth-child(3) {
-    min-width: 50%;
+section:nth-child(4) {
+    width: 40%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
-div {
-    margin: 10px;
+#weather {
+    display: flex;
+    align-items: center;
 }
 
-/* #weather {
-    align-self: flex-end;
-    justify-self: flex-start;
-} */
+#weather img {
+    width: 2rem;
+}
+
+#weather span {
+    margin: 0 6px 0 0;
+}
 
 #clock {
-    font-size: 4rem;
+    font-size: 6rem;
 }
 
 #greeting {
-    font-size: 0.8rem;
+    font-size: 1.5rem;
+}
+
+#greeting h1{
+    margin: 0px;
 }
 
 #quotes {
     font-size: 1rem;
-    width: 60%;
+    width: 80%;
+    margin: 30px;
+}
+
+#login {
+    margin-top: 30px;
+}
+
+#todo {
+    margin: 30px;
 }
 
 input {
@@ -65,17 +96,35 @@ input {
     padding: 5px;
 }
 
-#todo-form-input {
+.form-input {
     border-bottom: 1px solid white;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+input[type = "submit"] {
+    cursor: pointer;
+    background-color: rgb(128, 128, 128, 0.5);
+    border-radius: 3px;
 }
 
 div#todo-list {
     font-size: 1rem;
     margin-bottom: 10px;
+    margin: 10px;
 }
 
 div#todo-list li {
     list-style: none;
     padding: 10px;
-    background-color: rgb(128, 128, 128, 0.7);
+    background-color: rgb(128, 128, 128, 0.5);
+    display: flex;
+    align-items: center;
+}
+
+div#todo-list button {
+    margin:  0 0 0 10px;
+    border: none;
+    border-radius: 2px;
+    background: rgb(255, 255, 255, 0.5);
 }
