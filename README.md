@@ -1,4 +1,5 @@
 # Daily Board
+<img width="1237" alt="daily-board screenshot" src="https://user-images.githubusercontent.com/47770303/218878239-b2c7c44e-8933-4f7d-9683-ce892748a8ae.png">
 
 #### Table of Contents
 1. [About The Project](#about-the-project)
