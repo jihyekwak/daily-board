@@ -68,14 +68,19 @@ section:nth-child(4) {
     font-size: 1.5rem;
 }
 
-#greeting h1{
-    margin: 0px;
+#greeting {
+    margin: 5px;
 }
 
 #quotes {
     font-size: 1rem;
-    width: 80%;
+    width: 70%;
     margin: 30px;
+    line-height: 1.5rem;
+}
+
+#quotes span {
+    margin: 0 5px 0 0;
 }
 
 #login {
