@@ -2,6 +2,11 @@ const bgImgs = ["antelope canyon.jpg", "bryce canyon.jpg", "grand canyon.jpg", "
 
 const chosenImg = bgImgs[Math.floor(Math.random() * bgImgs.length)];
 
-document.body.style.backgroundImage = `url('images/${chosenImg}')`;
-document.body.style.backgroundSize = "cover";
-document.body.style.backgroundRepeat = "no-repeat";
+// document.body.style.backgroundImage = `url('images/${chosenImg}')`;
+// document.body.style.backgroundSize = "cover";
+// document.body.style.backgroundRepeat = "no-repeat";
+
+const bgImg = document.createElement("img");
+bgImg.id = "backgroundImg";
+bgImg.src = `images/${chosenImg}`;
+document.body.prepend(bgImg);

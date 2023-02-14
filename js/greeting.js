@@ -1,12 +1,12 @@
 const loginForm = document.querySelector("#login-form")
-const loginInput = document.querySelector("#login-form input:nth-child(1)");
-const greeting = document.querySelector("#greeting h1");
+const loginInput = document.querySelector("#login-form-input");
+const greetingName = document.querySelector("#greeting span:nth-child(2)");
 
 const USERNAME_KEY = "username";
 const HIDDEN_CLASSNAME = "hidden";
 
 function printUserName(userName) {
-    greeting.innerHTML = `Hello, ${userName}`;
+    greetingName.innerHTML = `${userName}!`;
 }
 
 function handleLoginSubmit(event) {
